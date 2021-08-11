@@ -1,0 +1,96 @@
+Comands Git
+
+ls
+lista os arquivos e pastas do diretório
+
+cd <nome da pasta>
+vai até a pasta
+
+cd ../
+volta uma pasta
+
+mkdir <nome>
+cria uma pasta
+
+touch <nome do arquivo>
+cria um arquivo
+
+rm <nome do arquivo>
+deleta um arquivo
+
+
+git init
+touch .gitignore
+git config --global user.name ""
+git config --global user.email ""
+
+inicia o git
+esse arquivo serve para definir quais arquivos você quer que não sejam versionados
+expecifica seu nome para adiconar na assinatura
+expecifica seu email para adiconar na assinatura
+
+
+git push --set-upstream origin master
+Loga na sua conta do github
+
+git add <file name>
+adiciona um arquivo
+
+git add .
+adiciona todos os arquivos
+
+git add *.<extensão>
+adiciona todos os arquivos com e extesão selecionada
+
+git add <pasta>/*
+adiciona todos os arquivos daquela pasta
+
+git status
+lista todos os seus adds
+
+git commit -m "<nome do commit>"
+fecha aquela versão
+
+git diff
+fala as modificações não salvas
+
+git log
+lista todos os commits com nomes dos autores
+"q" para sair
+
+git checkout <commit code>
+volta para o commit selecionado
+
+git checkout master
+volta para o mais recente commit
+
+git branch
+lista as branch
+
+git branch <nome do ramo>
+cria um ramo
+
+git merge <nome da branch>
+usado para passar o ramo para o master
+apenas quando concluir o ramo
+tem que rodar o camando no master ou para onde quer trazer a branch
+O branch continua existindo para novas alterações
+
+git branch -D <nome da branch>
+apaga a branch
+
+git remote add origin <link do github>
+adiciona o ponto remoto de seu repositório no github
+
+git remote -v
+lista as url's e nomes
+
+git push <nome do ponto remoto> <ramo/branch> --force
+envia o master/ramo/branch para o github
+
+git clone <url do repositório> <nome da pasta onde colocar os arquivos>
+Clona um repo do git para o PC.
+A escolha da pasta é opicional
+
+git pull <nome do ponto remoto> <ramo/branch>
+busca alterações do github para a maquina
