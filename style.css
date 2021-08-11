@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+body {
+    font-family: 'PT Sans', sans-serif;
+    background: #16161a;
+    color: #94a1b2;
+}
+input {
+    font-family: 'PT Sans', sans-serif;
+    font-size: large;
+    border-radius: 10px;
+    
+}
+#user {
+    margin-top: 50px;
+    margin-right: 130px;
+}
+#senha {
+    margin-right: 140px;
+}
+#confirmar {
+    margin-right: 30px;
+}
+#butaokkk {
+    text-decoration: none;
+    color: #94a1b2;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#butaokkk:visited {
+    color: #94a1b2;
+}
+#registro {
+    text-align: center;
+    margin-top: -215px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 3px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px #000000;
+    
+}
+#registro a:hover {
+    transition: .5s ;
+    color: #16161a;
+    background-color: #94a1b2;
+}
+.required {
+    color: #B15151;
+}
+#texto-de-cima {
+    text-align: center;
+    margin-top: 50px;
+}
+#show-pass-div {
+    margin-left: 55em;
+    margin-top: 300px;
+    border: 3px solid #fff;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+    width: fit-content;
+    box-shadow: 0px 0px 40px #000000;
+}
+#show-password:hover {
+    cursor: pointer;
+}
+textarea {
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+}
+.coisas {
+    text-align: center;
+    margin-top: 75px;
+    border: 3px solid #fff;
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: 0px 0px 40px #000000;
+}
+.coisas textarea {
+    font-family: 'PT Sans', sans-serif;
+    font-size: large;
+}
+#assunto {
+    
+    box-sizing: border-box;
+    height: 200px;
+    width: 800px;
+    resize: none;
+}
+#message {
+    resize: none;
+    box-sizing: border-box;
+    height: 40px;
+    width: 800px;
+}
+#nome1 {
+   resize: none;
+   height: 25px;
+   width: 800px; 
+}
+
+#email1 {
+    resize: none;
+    height: 25px;
+    width: 800px;
+}
+#botao {
+    margin-top: 25px;
+    
+}
+#botao button:hover {
+    cursor: pointer;
+}
+.required {
+    color: #B15151;
+}
+#logo {
+    text-align: center;
+    margin-top: 225px;
+}
+#logo a {
+    
+    text-decoration: none;
+}
+#logo a:visited {
+    color: #94a1b2;
+}
+#logo a:hover {
+    color: black;
+}
+#sim {
+    color: #94a1b2;
+    margin-right: 50px;
+    padding: 15px;
+    border-radius: 35%;
+}
+#nao {
+    color: #94a1b2;
+    padding: 15px;
+    border-radius: 35%;
+}
+#sim:hover {
+    color: #000000;
+    background-color: #22c044;
+    transition: .5s;
+}
+#nao:hover {
+    color: #000;
+    background-color: rgb(199, 27, 27);
+    transition: .5s;
+}
+#texto {
+    margin-bottom: 100px;
+}
+
+#tela {
+    text-align: center;
+    margin-top: 150px;
+}
+#botao {
+    text-decoration: none;
+    color: #94a1b2;
+    padding: 15px;
+    border-radius: 15px;
+}
+#botao:hover {
+    transition: .5s;
+    background-color: #94a1b2;
+    color: #16161a;
+}

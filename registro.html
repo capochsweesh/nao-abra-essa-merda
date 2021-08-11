@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="texto-de-cima">
+        <h1>Registrar</h1>
+    </div>
+    <div id="show-pass-div">
+        <input id="show-password" onclick="show_password()" type="checkbox">
+        <label for="show-password">Mostrar senha</label>
+    </div>
+    <div id="registro">
+        <form action="#">
+            <h3 id="user">
+                Usuário
+                <span class="required">*</span>
+            </h3>
+            <input type="text"> <br>
+            <h3 id="senha">
+                Senha
+                <span class="required">*</span>
+            </h3>
+            <input id="pass-fodase1"type="password">
+            <h3 id="confirmar">
+                Confirme sua senha
+                <span class="required">*</span>
+            </h3>
+            <input id="pass-fodase2"type="password">
+            
+            <h2 id="register-button">
+                <a type="submit"id="butaokkk"href="sucesso.html">Registrar</a>
+            </h2>
+        </form>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
